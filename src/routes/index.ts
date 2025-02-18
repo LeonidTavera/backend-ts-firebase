@@ -13,3 +13,5 @@ router.get('/', (req: Request, res: Response) => {
 router.use('/auth,', authRoutes)
 router.use('/user', userRoutes)
 
+export default router
+
